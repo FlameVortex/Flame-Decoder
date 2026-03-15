@@ -573,7 +573,6 @@ This project is distributed as compiled Cython code. For feature requests or bug
 
 - 🐛 [Report Issues](https://github.com/FlameVortex/Flame-Decoder/issues)
 - 💬 [Contact on Telegram](https://t.me/FlameVortex_TRS)
-- 📧 Email: flamevortex@example.com
 
 ---
 
