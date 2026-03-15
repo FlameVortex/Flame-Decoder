@@ -1,4 +1,4 @@
-# FlameVortex Ultimate Decoder
+# FlameVortex Encryption Decoder
 
 <div align="center">
 
