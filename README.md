@@ -6,7 +6,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-3.0-orange.svg)](https://github.com/FlameVortex)
+[![Version](https://img.shields.io/badge/Version-1.0-orange.svg)](https://github.com/FlameVortex)
 
 [Features](#features) • [Installation](#installation) • [Usage](#usage) • [Decoders](#decoders) • [Documentation](#documentation)
 
