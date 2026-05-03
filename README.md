@@ -62,16 +62,6 @@ FlameVortex Encryption Decoder is a comprehensive toolkit for analyzing and deco
 - Error recovery
 
 </td>
-<td width="50%">
-
-### 🔐 Security
-- Unique device keys
-- Access control system
-- Secure key storage
-- Real-time validation
-- Cython protected code
-
-</td>
 </tr>
 </table>
 
@@ -184,14 +174,11 @@ Detects and decodes `b64decode()` patterns.
 ### Quick Install (Termux/Linux)
 
 ```bash
-# Clone repository
 git clone https://github.com/FlameVortex/Flame-Decoder.git
 cd Flame-Decoder
 
-# Install dependencies
 pip install -r requirements.txt
 
-# Run the tool
 python decoder.py
 ```
 
@@ -218,41 +205,31 @@ python decoder.py
 ### For Termux (Android)
 
 ```bash
-# Update packages
 pkg update && pkg upgrade -y
 
-# Install Python and Git
 pkg install python git -y
 
-# Clone repository
 cd ~
 git clone https://github.com/FlameVortex/Flame-Decoder.git
 cd Flame-Decoder
 
-# Install runtime dependencies
 pip install -r requirements.txt
 
-# Run the tool
 python decoder.py
 ```
 
 ### For Linux/Kali
 
 ```bash
-# Update system
 sudo apt update && sudo apt upgrade -y
 
-# Install Python and Git
 sudo apt install python3 python3-pip git -y
 
-# Clone repository
 git clone https://github.com/FlameVortex/Flame-Decoder.git
 cd Flame-Decoder
 
-# Install dependencies
 pip3 install -r requirements.txt
 
-# Run the tool
 python3 decoder.py
 ```
 
@@ -260,11 +237,10 @@ python3 decoder.py
 
 **Issue: "cannot open shared object file"**
 ```bash
-# Install Python development files
-# For Termux:
+# Termux:
 pkg install python-dev
 
-# For Linux:
+# Linux:
 sudo apt install python3-dev
 ```
 
@@ -282,10 +258,10 @@ pip install -r requirements.txt --force-reinstall
 ### Quick Start
 
 ```bash
-# Run the compiled tool
 python decoder.py
 
-# Or if you have multiple Python versions
+# or
+
 python3 decoder.py
 ```
 
@@ -306,11 +282,8 @@ python3 decoder.py
 ### Example Session
 
 ```bash
-$ python ultimate_decoder*.so
+$ python decoder*.py
 
-==========================================
-    🔓 ACCESS GRANTED — KEY APPROVED
-==========================================
 
 ╔═════════════════════════════════════════════════════════════╗
 ║     SELECT DECODER TYPE                                     ║
@@ -345,30 +318,6 @@ $ python ultimate_decoder*.so
 ╚═══════════════════════════════════════╝
 ```
 
----
-
-
-### Getting Approved
-
-If you see:
-
-```
-==========================================
-    🔒 ACCESS DENIED — KEY NOT APPROVED
-==========================================
-
-🔑 Your Key: ABC123DEF456...
-👉 Message Admin to Approve Your Key.
-```
-
-**Steps:**
-1. Copy your device key
-2. Press ENTER (opens Telegram)
-3. Send key to [@FlameVortex_TRS](https://t.me/FlameVortex_TRS)
-4. Wait for approval (usually within 24 hours)
-5. Re-run tool
-
----
 
 ## 📤 Output Formats
 
